@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/omiguelperez/chat/issues"
   },
-  "homepage": "https://github.com/omiguelperez/chat#readme"
+  "homepage": "https://github.com/omiguelperez/chat#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
