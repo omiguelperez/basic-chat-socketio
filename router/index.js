@@ -3,7 +3,9 @@
 module.exports = function (app) {
 
   app.get('/', function (req, res) {
-    res.send('home')
+    res.render('index', {
+    	title: 'Home'
+    })
   })
 
 }
